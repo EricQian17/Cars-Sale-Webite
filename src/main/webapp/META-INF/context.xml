@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/DerbyTomcat">
+    
+    <Resource name="jdbc/testdb"
+              auth="Container" 
+              type="javax.sql.DataSource"
+              driverClassName="org.apache.derby.jdbc.ClientDriver" 
+              username="app"
+              password="password1234" 
+              url="jdbc:derby://localhost:1527/carsDB" 
+              maxActive="10" maxIdle="4" 
+    />
+</Context>

@@ -1,0 +1,22 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Security TLD</short-name>
+   
+   <tag>
+      <name>security</name>
+      <tag-class>com.zetcode.tags.SecurityTag</tag-class>
+      <body-content>empty</body-content>
+      
+      <attribute> 
+      	<name>id</name>
+      	<required>false</required>
+      	<type>java.lang.String</type>
+      </attribute>
+      <attribute> 
+      	<name>minutes</name>
+      	<required>false</required>
+      	<type>java.lang.float</type>
+      </attribute>
+   </tag>
+</taglib>
