@@ -1,4 +1,4 @@
-# Cars Sale Websitte
+# Cars Sale Website
 
 Utilizes MVC design to create webpages using Java, JSP, and HTML.
 
